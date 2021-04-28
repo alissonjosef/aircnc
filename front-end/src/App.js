@@ -17,7 +17,7 @@ function App() {
   }
   return (
     <div className="container">
-      <img src={logo} alt="Correitaoutlet"/>
+      <img src={logo} alt="Correiaoutlet"/>
 
       <div className="content">
         <p>
@@ -28,7 +28,7 @@ function App() {
           <label htmlFor="email">E-mail</label>
           <input type="email"
            id="email" 
-           placeholder="Seu melhor email"
+           placeholder="Seu melhor e-mail"
            value={email}
            onChange={handleEmailChange}
            />
